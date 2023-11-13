@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3957BFC47604AB83C95CE514 /* Pods_veroTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAC694772A580E8C7311E09 /* Pods_veroTask.framework */; };
 		97DCA4152B0242B2007CC97C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DCA4142B0242B2007CC97C /* AppDelegate.swift */; };
 		97DCA4172B0242B2007CC97C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DCA4162B0242B2007CC97C /* SceneDelegate.swift */; };
-		97DCA4192B0242B2007CC97C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DCA4182B0242B2007CC97C /* ViewController.swift */; };
-		97DCA41C2B0242B2007CC97C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97DCA41A2B0242B2007CC97C /* Main.storyboard */; };
+		97DCA4192B0242B2007CC97C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DCA4182B0242B2007CC97C /* HomeViewController.swift */; };
 		97DCA41E2B0242B3007CC97C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97DCA41D2B0242B3007CC97C /* Assets.xcassets */; };
 		97DCA4212B0242B3007CC97C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97DCA41F2B0242B3007CC97C /* LaunchScreen.storyboard */; };
+		97DCA42C2B024486007CC97C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DCA42B2B024486007CC97C /* Task.swift */; };
+		97DCA4322B02460D007CC97C /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DCA4312B02460D007CC97C /* UIColor+Extensions.swift */; };
+		97DCA4362B0246F2007CC97C /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DCA4352B0246F2007CC97C /* TaskTableViewCell.swift */; };
+		97DCA4392B0248AC007CC97C /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DCA4382B0248AC007CC97C /* TaskManager.swift */; };
+		97DCA43B2B025337007CC97C /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DCA43A2B025337007CC97C /* ApiManager.swift */; };
+		97DCA43D2B026CB8007CC97C /* TaskResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DCA43C2B026CB8007CC97C /* TaskResponse.swift */; };
+		97DCA4412B026D19007CC97C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DCA4402B026D19007CC97C /* BaseViewController.swift */; };
+		97DCA4432B026DA8007CC97C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DCA4422B026DA8007CC97C /* HomeViewModel.swift */; };
+		97DCA4452B026DB1007CC97C /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DCA4442B026DB1007CC97C /* BaseViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49C225BC6A39CF3C83D9A3CB /* Pods-veroTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-veroTask.release.xcconfig"; path = "Target Support Files/Pods-veroTask/Pods-veroTask.release.xcconfig"; sourceTree = "<group>"; };
 		97DCA4112B0242B2007CC97C /* veroTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = veroTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97DCA4142B0242B2007CC97C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97DCA4162B0242B2007CC97C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		97DCA4182B0242B2007CC97C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		97DCA41B2B0242B2007CC97C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97DCA4182B0242B2007CC97C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		97DCA41D2B0242B3007CC97C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97DCA4202B0242B3007CC97C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97DCA4222B0242B3007CC97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97DCA42B2B024486007CC97C /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		97DCA4312B02460D007CC97C /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		97DCA4352B0246F2007CC97C /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		97DCA4382B0248AC007CC97C /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		97DCA43A2B025337007CC97C /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		97DCA43C2B026CB8007CC97C /* TaskResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskResponse.swift; sourceTree = "<group>"; };
+		97DCA4402B026D19007CC97C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		97DCA4422B026DA8007CC97C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		97DCA4442B026DB1007CC97C /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		9B38C94584BAC8A3F322E805 /* Pods-veroTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-veroTask.debug.xcconfig"; path = "Target Support Files/Pods-veroTask/Pods-veroTask.debug.xcconfig"; sourceTree = "<group>"; };
+		FBAC694772A580E8C7311E09 /* Pods_veroTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_veroTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3957BFC47604AB83C95CE514 /* Pods_veroTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BD9BF6B31BEB1AAB1476821 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBAC694772A580E8C7311E09 /* Pods_veroTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		97DCA4082B0242B2007CC97C = {
 			isa = PBXGroup;
 			children = (
 				97DCA4132B0242B2007CC97C /* veroTask */,
 				97DCA4122B0242B2007CC97C /* Products */,
+				CDED200180EB5038D4814024 /* Pods */,
+				7BD9BF6B31BEB1AAB1476821 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +87,120 @@
 		97DCA4132B0242B2007CC97C /* veroTask */ = {
 			isa = PBXGroup;
 			children = (
+				97DCA4332B0246DC007CC97C /* UIComponents */,
+				97DCA4302B0245FE007CC97C /* Utilities */,
+				97DCA4292B02445F007CC97C /* Scenes */,
+				97DCA4282B024459007CC97C /* DataProvider */,
 				97DCA4142B0242B2007CC97C /* AppDelegate.swift */,
 				97DCA4162B0242B2007CC97C /* SceneDelegate.swift */,
-				97DCA4182B0242B2007CC97C /* ViewController.swift */,
-				97DCA41A2B0242B2007CC97C /* Main.storyboard */,
 				97DCA41D2B0242B3007CC97C /* Assets.xcassets */,
 				97DCA41F2B0242B3007CC97C /* LaunchScreen.storyboard */,
 				97DCA4222B0242B3007CC97C /* Info.plist */,
 			);
 			path = veroTask;
+			sourceTree = "<group>";
+		};
+		97DCA4282B024459007CC97C /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				97DCA42D2B02458A007CC97C /* Service */,
+				97DCA42A2B02447A007CC97C /* Modals */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		97DCA4292B02445F007CC97C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				97DCA43F2B026D02007CC97C /* Base */,
+				97DCA43E2B026CFF007CC97C /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		97DCA42A2B02447A007CC97C /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				97DCA42B2B024486007CC97C /* Task.swift */,
+				97DCA43C2B026CB8007CC97C /* TaskResponse.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		97DCA42D2B02458A007CC97C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				97DCA4372B0248A2007CC97C /* UserDefaults */,
+				97DCA43A2B025337007CC97C /* ApiManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		97DCA4302B0245FE007CC97C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				97DCA4462B02710F007CC97C /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		97DCA4332B0246DC007CC97C /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				97DCA4342B0246E1007CC97C /* Cells */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		97DCA4342B0246E1007CC97C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				97DCA4352B0246F2007CC97C /* TaskTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		97DCA4372B0248A2007CC97C /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				97DCA4382B0248AC007CC97C /* TaskManager.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		97DCA43E2B026CFF007CC97C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				97DCA4182B0242B2007CC97C /* HomeViewController.swift */,
+				97DCA4422B026DA8007CC97C /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		97DCA43F2B026D02007CC97C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				97DCA4402B026D19007CC97C /* BaseViewController.swift */,
+				97DCA4442B026DB1007CC97C /* BaseViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		97DCA4462B02710F007CC97C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				97DCA4312B02460D007CC97C /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CDED200180EB5038D4814024 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B38C94584BAC8A3F322E805 /* Pods-veroTask.debug.xcconfig */,
+				49C225BC6A39CF3C83D9A3CB /* Pods-veroTask.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97DCA4252B0242B3007CC97C /* Build configuration list for PBXNativeTarget "veroTask" */;
 			buildPhases = (
+				1CB879C6DDAF19B6C54C35FC /* [CP] Check Pods Manifest.lock */,
 				97DCA40D2B0242B2007CC97C /* Sources */,
 				97DCA40E2B0242B2007CC97C /* Frameworks */,
 				97DCA40F2B0242B2007CC97C /* Resources */,
+				28858B3189474AB9A270A0C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +265,68 @@
 			files = (
 				97DCA4212B0242B3007CC97C /* LaunchScreen.storyboard in Resources */,
 				97DCA41E2B0242B3007CC97C /* Assets.xcassets in Resources */,
-				97DCA41C2B0242B2007CC97C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CB879C6DDAF19B6C54C35FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-veroTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28858B3189474AB9A270A0C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-veroTask/Pods-veroTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-veroTask/Pods-veroTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-veroTask/Pods-veroTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		97DCA40D2B0242B2007CC97C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97DCA4192B0242B2007CC97C /* ViewController.swift in Sources */,
+				97DCA43D2B026CB8007CC97C /* TaskResponse.swift in Sources */,
+				97DCA4432B026DA8007CC97C /* HomeViewModel.swift in Sources */,
+				97DCA4362B0246F2007CC97C /* TaskTableViewCell.swift in Sources */,
+				97DCA43B2B025337007CC97C /* ApiManager.swift in Sources */,
+				97DCA4192B0242B2007CC97C /* HomeViewController.swift in Sources */,
+				97DCA4452B026DB1007CC97C /* BaseViewModel.swift in Sources */,
+				97DCA4392B0248AC007CC97C /* TaskManager.swift in Sources */,
+				97DCA4412B026D19007CC97C /* BaseViewController.swift in Sources */,
+				97DCA4322B02460D007CC97C /* UIColor+Extensions.swift in Sources */,
+				97DCA42C2B024486007CC97C /* Task.swift in Sources */,
 				97DCA4152B0242B2007CC97C /* AppDelegate.swift in Sources */,
 				97DCA4172B0242B2007CC97C /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +335,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		97DCA41A2B0242B2007CC97C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				97DCA41B2B0242B2007CC97C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		97DCA41F2B0242B3007CC97C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +462,7 @@
 		};
 		97DCA4262B0242B3007CC97C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B38C94584BAC8A3F322E805 /* Pods-veroTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,9 +473,9 @@
 				INFOPLIST_FILE = veroTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +491,7 @@
 		};
 		97DCA4272B0242B3007CC97C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C225BC6A39CF3C83D9A3CB /* Pods-veroTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,9 +502,9 @@
 				INFOPLIST_FILE = veroTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

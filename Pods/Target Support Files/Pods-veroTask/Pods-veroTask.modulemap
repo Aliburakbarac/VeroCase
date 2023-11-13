@@ -1,0 +1,6 @@
+framework module Pods_veroTask {
+  umbrella header "Pods-veroTask-umbrella.h"
+
+  export *
+  module * { export * }
+}
